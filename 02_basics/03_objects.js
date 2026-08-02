@@ -1,7 +1,7 @@
 // singleton
 // Object.create
 
-// object literals
+// object literals // we are creating an object using object literal syntax
 
 const mySym = Symbol("key1")
 
@@ -9,7 +9,7 @@ const mySym = Symbol("key1")
 const JsUser = {
     name: "Hitesh",
     "full name": "Hitesh Choudhary",
-    [mySym]: "mykey1",
+    [mySym]: "mykey1", // we need to use bracket when we want to refere a symbol key
     age: 18,
     location: "Jaipur",
     email: "hitesh@google.com",
@@ -18,7 +18,7 @@ const JsUser = {
 }
 
 // console.log(JsUser.email)
-// console.log(JsUser["email"])
+// console.log(JsUser["email"]) // using bracket notation
 // console.log(JsUser["full name"])
 // console.log(JsUser[mySym])
 

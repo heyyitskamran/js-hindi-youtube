@@ -1,6 +1,6 @@
 // array
 
-const myArr = [0, 1, 2, 3, 4, 5]
+const myArr = [0, 1, 2, 3, 4, 5] // array elements can be number, string, boolean, object, function, array
 const myHeors = ["shaktiman", "naagraj"]
 
 const myArr2 = new Array(1, 2, 3, 4)
@@ -10,7 +10,7 @@ const myArr2 = new Array(1, 2, 3, 4)
 
 // myArr.push(6)
 // myArr.push(7)
-// myArr.pop()
+// myArr.pop() // removes last element and no need to pass any argument
 
 // myArr.unshift(9)
 // myArr.shift()
@@ -18,7 +18,7 @@ const myArr2 = new Array(1, 2, 3, 4)
 // console.log(myArr.includes(9));
 // console.log(myArr.indexOf(3));
 
-// const newArr = myArr.join()
+// const newArr = myArr.join() // join converts array into string and returns the string
 
 // console.log(myArr);
 // console.log( newArr);

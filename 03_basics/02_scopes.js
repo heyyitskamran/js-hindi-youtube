@@ -56,3 +56,5 @@ addTwo(5)
 const addTwo = function(num){
     return num + 2
 }
+// This is called a function expression.
+// Function expressions stored in const/let cannot be used before they are created.

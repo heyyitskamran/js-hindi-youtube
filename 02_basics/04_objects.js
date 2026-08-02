@@ -63,9 +63,9 @@ const course = {
 
 // course.courseInstructor
 
-const {courseInstructor: instructor} = course
+const {courseInstructor: instructor} = course // This line is object destructuring with renaming in JavaScript
 
-// console.log(courseInstructor);
+// console.log(courseInstructor); // error
 console.log(instructor);
 
 // {

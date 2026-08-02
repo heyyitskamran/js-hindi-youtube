@@ -1,4 +1,5 @@
 // Immediately Invoked Function Expressions (IIFE)
+// A function that runs immediately after it is created.
 
 
 (function chai(){
